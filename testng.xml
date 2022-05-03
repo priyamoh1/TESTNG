@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TEST.cacandlogout"/>
+      <class name="TEST.logineditltlogout"/>
+      <class name="TEST.edittow"/>
+      <class name="TEST.logincltlogout"/>
+      <class name="TEST.loginanddclogout"/>
+      <class name="TEST.logindltandlogout"/>
+      <class name="TEST.logintoactandlogout"/>
+      <class name="TEST.logindtowlogout"/>
+      <class name="TEST.createtowandlogout"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
